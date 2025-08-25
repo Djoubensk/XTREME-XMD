@@ -5,23 +5,23 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "PROVIDE YOUR SESSION ID",
+SESSION_ID: process.env.SESSION_ID || "XTREME~XMD~GoATQBCB#eUOPmBftPzS2OVl8ut5HZmo42jIv4-7u_fpf9vT3l5Q",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 //anticall on/off
    ANTI_CALL: process.env.ANTI_CALL || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY PRINCE XTREME 🤍*",
 // set the auto reply massage on status reply  
-ANTI_DELETE: process.env.ANTI_DELETE || "true",
+ANTI_DELETE: process.env.ANTI_DELETE || "false",
 // set true false for anti delete     
 ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "inbox", 
 // change it to 'same' if you want to resend deleted message in same chat     
-WELCOME: process.env.WELCOME || "true",
+WELCOME: process.env.WELCOME || "false",
 // true if want welcome and goodbye msg in groups    
 ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
@@ -38,9 +38,9 @@ PREFIX: process.env.PREFIX || ".",
     // Timezone for the auto-bio feature
     TIME_ZONE: process.env.TIME_ZONE || "Asia/Kolkata",  // Change to your preferred timezone
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "𝐗𝐓𝐑𝐄𝐌𝐄 𝐗𝐌𝐃",
+BOT_NAME: process.env.BOT_NAME || "✰🌴𝙹𝚄𝚂𝚃 𝙳𝙰𝙼𝙾𝙽🌴✰",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "•᭄͢❈🏴‍☠️𝐏𝐑𝐎𝐅𝐄𝐒𝐒𝐎𝐑 𝐗-𝐓𝐑𝐄𝐌𝐄🇦🇱᪣᭄",
+STICKER_NAME: process.env.STICKER_NAME || "•᭄͢❈🏴‍☠️✰🌴𝙹𝚄𝚂𝚃 𝙳𝙰𝙼𝙾𝙽🌴✰🇦🇱᪣᭄",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -74,13 +74,13 @@ AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "528145550855",
+DEV: process.env.DEV || "50955867622",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
